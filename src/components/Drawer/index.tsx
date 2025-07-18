@@ -19,7 +19,7 @@ const transitionDirectionMap = {
   bottom: 'translate-y-full',
 }
 export default function Drawer(props: DrawerProps) {
-  const { open = false, placement = 'left', onClose, children } = props
+  const { open = false, placement = 'right', onClose, children } = props
 
   function onCloseDrawer() {
     onClose?.()
